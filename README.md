@@ -9,7 +9,7 @@ As referências para esta API você encontra em https://outpay.me/doc.
 
 ## Instalação
 
-### [Composer](http://getcomposer.org/) via [Packagist](packagist.org/packages/nfe/nfe)
+### [Composer](http://getcomposer.org/) via [Packagist](packagist.org/packages/Outpay/Outpay)
 
   - Você pode instalar via [Composer](http://getcomposer.org/), executando o comando a seguir:
 
@@ -27,7 +27,7 @@ As referências para esta API você encontra em https://outpay.me/doc.
   - Se você não quer usar o Composer
   - Faça o download de uma das últimas versões, usando o endereço abaixo
 
-  [`github.com/nfe/client-php/releases`](https://github.com/Outpay/client-php/releases)
+  [`github.com/Outpay/client-php/releases`](https://github.com/Outpay/client-php/releases)
 
   - Depois de baixar, inclua a biblioteca em seu arquivo PHP
 
