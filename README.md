@@ -7,12 +7,8 @@ As referências para esta API você encontra em https://outpay.me/doc.
 
 * PHP 5.4 em diante.
 
-  ```
-
 ### Manual
   - Utilizar o exemplo que esta no arquivo [`exemple.php`](https://github.com/outpay-me/client-php/blob/master/example.php).
-
-  ```
 
 ## Dependencias
 
