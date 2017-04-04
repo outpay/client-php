@@ -1,13 +1,15 @@
 <?php
-  $endpoint  = 'https://outpay.me/api/billet/create'
-  $token = '33cf1f44279bbb4962c689c21';
+  // Documentação completa [http://outpay.co/doc#billet_generate]
+
+  $endpoint  = 'https://outpay.co/api/billet/create'
+  $token = '33cf1f44279bbb4962c689c21'; // Token do usuário no Dashboard da Outpay
   
   // Os campos com (*) devem ser preenchidos obrigatoriamente
   
   $data = array(
       'user_token' => $token, // *
-      'order_amount' => 100, // * Valor do pedido
-        'order_description' => 'Pedido da minha loja virtual', // * Legenda do pedido
+      'order_amount' => 100, // * Valor do pedido [Inteiro Ex: R$10,50 = 10.50]
+      'order_description' => 'Pedido da minha loja virtual', // * Legenda do pedido
       'customer_fullname' => 'John Due', // * Nome completo do cliente
       'customer_document' => '99999999999999', // * Documento do cliente (apenas número) [CPF ou CNPJ]
       'customer_email' => 'jhon@due.com', // * E-mail do cliente
@@ -37,4 +39,6 @@
 
   $response = json_decode($resposta);
   $response->checkout_url; // URL do checkout para onde o seu cliente deverá ir para imprimir o boleto
+
+  // * Importante: Sempre salve o token do boleto gerado para realizar a consulta do status posteriormente [Veja a documentação: http://outpay.co/doc#billet_generate]
 ?>
