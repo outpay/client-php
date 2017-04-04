@@ -10,6 +10,7 @@
       'user_token' => $token, // *
       'order_amount' => 100, // * Valor do pedido [Inteiro Ex: R$10,50 = 10.50]
       'order_description' => 'Pedido da minha loja virtual', // * Legenda do pedido
+      'postback_url' => 'http://meusite.com.br/postback/outpay' // * URL de notificação de alteração de status do boleto
       'customer_fullname' => 'John Due', // * Nome completo do cliente
       'customer_document' => '99999999999999', // * Documento do cliente (apenas número) [CPF ou CNPJ]
       'customer_email' => 'jhon@due.com', // * E-mail do cliente
