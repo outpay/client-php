@@ -1,5 +1,5 @@
 <?php
-  $endpoint  = 'https://outpay.me/pro/api/billet'
+  $endpoint  = 'https://outpay.me/api/billet/create'
   $token = '33cf1f44279bbb4962c689c21';
   
   // Os campos com (*) devem ser preenchidos obrigatoriamente
@@ -36,5 +36,5 @@
   curl_close($curl);
 
   $response = json_decode($resposta);
-  $response->checkout_url // URL do checkout para onde o seu cliente deverá ir para imprimir o boleto
+  $response->checkout_url; // URL do checkout para onde o seu cliente deverá ir para imprimir o boleto
 ?>
