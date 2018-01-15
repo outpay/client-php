@@ -1,7 +1,7 @@
 # Cliente PHP da API da Outpay Pagamentos
 Exemplos da API para a linguagem PHP
 
-As referências para esta API você encontra em https://outpay.co/doc.
+As referências para esta API você encontra em https://outpay.io/doc.
 
 ## Requisitos
 
